@@ -10,9 +10,9 @@ angular.module('corsApp')
             }
 
             var baseUri = 'https://techedairlift03.spoppe.com/expenses/_api/';          
-
-            return $http.get(baseUri + 'web/lists/' +
-               "getByTitle('Documents')/items?$select=id,name,dateTimeCreated,webUrl,contentUrl&$orderby=name",
+               
+            return $http.get(baseUri + 'v1.0/files/' +
+               "getByTitle('Documents')/children?$select=id,name,dateTimeCreated,webUrl,contentUrl&$orderby=name",
                getOptions).then(function (results) {
                    var employees = results.data.d; //Get employees data
 
