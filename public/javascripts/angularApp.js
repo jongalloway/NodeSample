@@ -7,11 +7,8 @@ angular.module('corsApp', ['ngRoute','AdalAngular'])
         templateUrl: "/home.html",
     }).when("/searchfile", {
         controller: "corsCallCtrl",
-        templateUrl: "/App/Views/searchfile.html",
+        templateUrl: "/searchfile.html",
         requireADLogin: true,
-    }).when("/UserData", {
-        controller: "userDataCtrl",
-        templateUrl: "/App/Views/UserData.html",
     }).otherwise({ redirectTo: "/Home" });
 
 
