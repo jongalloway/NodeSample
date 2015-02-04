@@ -5,7 +5,7 @@ angular.module('corsApp', ['ngRoute','AdalAngular'])
     $routeProvider.when("/Home", {
         controller: "homeCtrl",
         templateUrl: "/home.html",
-    }).when("/searchfile", {
+    }).when("/searchfile/:name", {
         controller: "corsCallCtrl",
         templateUrl: "/searchfile.html",
         requireADLogin: true,

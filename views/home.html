@@ -1,3 +1,10 @@
 ﻿<div>
+    <p><input type="text" id="txtSearch" /></p>
+    <p><input type="button" value="Search" onclick="searchFile();" /></p>
 
+    <script type="text/javascript">
+            function searchFile() {
+               window.location="#/searchfile/" + txtSearch.value;
+            }
+    </script>
 </div>
