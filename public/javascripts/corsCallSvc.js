@@ -18,7 +18,7 @@ angular.module('corsApp')
                getOptions).then(function (results) {
                     var items = new Array();
                     var files = results.data.d; //Get employees data
-                    for (var count = 0; count < files.length; count++) {
+                    for (var count = 0; count < files.results.length; count++) {
                         items.push({
                             name: files[count].Name,
                             link: files[count].__metadata.id
