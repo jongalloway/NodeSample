@@ -14,7 +14,7 @@ angular.module('corsApp')
                 //https://techedairlift03.spoppe.com/expenses/_api/web/getfolderbyserverrelativeurl('Shared%20Documents')/files?$filter=substringof(%27Spread%27,Name)
                 
                 return $http.get(baseUri + 'web/getfolderbyserverrelativeurl(\'Shared%20Documents\')/' +
-               'files?$select=id,name,dateTimeCreated,webUrl,contentUrl&$filter=substringof(\'' + name + '\',Name)$orderby=name',
+               'files?$select=id,name,dateTimeCreated,webUrl,contentUrl&$filter=substringof(\'' + name + '\',Name)&$orderby=name',
                getOptions).then(function (results) {
                     var items = new Array();
                     var files = results.data.d; //Get employees data
