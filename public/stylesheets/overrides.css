@@ -8,3 +8,7 @@ ul.search_results li {
 ul.search_results li .info {
     color: #009030;
 }
+.search_title {
+    font-size: 16px;
+    padding: 10px;
+}
