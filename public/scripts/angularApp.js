@@ -4,7 +4,7 @@ angular.module('docsApp', ['ngRoute','AdalAngular'])
     $routeProvider.when("/Home", {
         controller: "homeCtrl",
         templateUrl: "/home.html",
-    }).when("/search/:name", {
+    }).when("/search", {
         controller: "searchCtrl",
         templateUrl: "/search.html",
         requireADLogin: true,
