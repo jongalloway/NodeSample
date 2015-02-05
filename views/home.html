@@ -5,7 +5,7 @@
 
 <div ng-hide="userInfo.isAuthenticated">
     In order to see your files, yo uwill need to authenticate against Office 365.
-    <div><button ng-click="login()">Log in</button> to see your information.</div>
+    <div><button class="btn btn-primary" ng-click="login()">Log in</button> to see your information.</div>
 </div>
 <div ng-show="userInfo.isAuthenticated">
     Welcome to OneDrive for Business! You can access your documents that are stored in Office365.
