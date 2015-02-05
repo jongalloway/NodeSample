@@ -29,3 +29,4 @@ node_modules
 # VS Node files
 obj
 *.suo
+*.dat
