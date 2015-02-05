@@ -12,7 +12,7 @@ angular.module('docsApp')
                 
                 var baseUri = 'https://techedairlift03.spoppe.com/expenses/_api/';                
                 
-                return $http.get(baseUri + 'files?$select=id,name,lastModifiedBy,length,Url',
+                return $http.get(baseUri + 'files?$select=id,name,lastModifiedBy,size,url',
                 getOptions).then(function (results) {
                     var items = new Array();
                     var files = results.data.d; //Get employees data
@@ -21,7 +21,7 @@ angular.module('docsApp')
                         items.push({
                             name: item.Name,
                             link: item.Url + '?web=1',
-                            size: item.length,
+                            size: item.size,
                             lastModifiedBy: item.LastModifiedBy.Name
                         });
                     }
