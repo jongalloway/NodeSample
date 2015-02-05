@@ -8,6 +8,7 @@ angular.module('corsApp')
     $scope.populate = function () {
 
         corsCallSvc.getItems($routeParams.name).then(function (result) {
+            $scope.searchTerm = $routeParams.name;
             $scope.corsCallList = result;
             $scope.loadingMessage = "";
         },function (err) {
