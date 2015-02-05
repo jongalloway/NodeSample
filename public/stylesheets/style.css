@@ -5,3 +5,10 @@ body {
 a {
   color: #00b7ff;
 }
+ul.search_results {
+    list-style-type: none;
+}
+ul.search_results li {
+    padding: 10px;
+    background-color: white;
+}

@@ -5,9 +5,9 @@
         <div class="input-group">
             Here are the search results from OneDrive for Business:
         </div>
-        <ul class="list-group">
+        <ul class="search_results list-group">
             <li data-ng-repeat="item in corsCallList">
-                <p><a href="{{item.link}}" target="_blank">{{item.name}}</a></p>
+                <a href="{{item.link}}" target="_blank">{{item.name}}</a>
             </li>
         </ul>
     </div>
