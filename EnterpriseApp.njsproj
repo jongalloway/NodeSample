@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
+    <Compile Include="newrelic.js" />
     <Compile Include="public\javascripts\adal.js" />
     <Compile Include="public\javascripts\angular-ui-bootstrap.js" />
     <Compile Include="public\javascripts\angularApp.js" />
