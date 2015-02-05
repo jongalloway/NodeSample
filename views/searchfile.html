@@ -8,6 +8,8 @@
         <ul class="search_results list-group">
             <li data-ng-repeat="item in corsCallList">
                 <a href="{{item.link}}" target="_blank">{{item.name}}</a>
+                <div>{{item.size}}</div>
+                <div>{{item.lastModifiedBy}}</div>
             </li>
         </ul>
     </div>
