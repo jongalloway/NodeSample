@@ -21,7 +21,7 @@ angular.module('docsApp')
                         items.push({
                             name: item.Name,
                             link: item.Url + '?web=1',
-                            size: item.size,
+                            size: item.Size,
                             lastModifiedBy: item.LastModifiedBy.Name
                         });
                     }
