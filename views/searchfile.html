@@ -5,15 +5,10 @@
         <div class="input-group">
             Here are the search results from OneDrive for Business:
         </div>
-        <table class="table table-striped">
-            <tbody>
-                <tr data-ng-repeat="item in corsCallList">
-                    <td>
-                        <p><a href="{{item.link}}" target="_blank">{{item.name}}</a></p>
-                    </td>
-                   
-                </tr>
-            </tbody>
-        </table>
+        <ul class="list-group">
+            <li data-ng-repeat="item in corsCallList">
+                <p><a href="{{item.link}}" target="_blank">{{item.name}}</a></p>
+            </li>
+        </ul>
     </div>
 </div>
