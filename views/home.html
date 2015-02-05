@@ -1,10 +1,13 @@
-﻿<div ng-show="userInfo.isAuthenticated">
-    <p><input type="text" id="txtSearch" /></p>
-    <p><input type="button" value="Search" onclick="searchFile();" /></p>
+﻿<div class="page-header">
+    <h1>OneDrive - Your Files, Accessible Anywhere</h1>
+</div>
 
-    <script type="text/javascript">
-        function searchFile() {
-            window.location = "#/searchfile/" + txtSearch.value;
-        }
-    </script>
+
+<div ng-hide="userInfo.isAuthenticated">
+    In order to see your files, yo uwill need to authenticate against Office 365.
+    <div><button ng-click="login()">Log in</button> to see your information.</div>
+</div>
+<div ng-show="userInfo.isAuthenticated">
+    Welcome to OneDrive for Business! You can access your documents that are stored in Office365.
+    <div><a href="/search">Your Files</a></div>
 </div>
