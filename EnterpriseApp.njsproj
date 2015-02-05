@@ -43,15 +43,12 @@
     <Compile Include="routes\index.js" />
     <Compile Include="routes\users.js" />
     <Compile Include="bin\www" />
-    <None Include="enterpriseapp.pubxml" />
     <Content Include="package.json" />
     <Content Include="public\stylesheets\overrides.css" />
     <Content Include="README.md" />
-    <Content Include="views\searchfile.html" />
+    <Content Include="views\search.html" />
     <Content Include="views\home.html" />
     <Content Include="views\index.html" />
-    <Content Include="views\layout.jade" />
-    <Content Include="views\error.jade" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\" />
