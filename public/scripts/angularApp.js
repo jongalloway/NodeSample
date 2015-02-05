@@ -6,8 +6,8 @@ angular.module('corsApp', ['ngRoute','AdalAngular'])
         controller: "homeCtrl",
         templateUrl: "/home.html",
     }).when("/searchfile/:name", {
-        controller: "corsCallCtrl",
-        templateUrl: "/searchfile.html",
+        controller: "searchCtrl",
+        templateUrl: "/search.html",
         requireADLogin: true,
     }).otherwise({ redirectTo: "/Home" });
 

@@ -1,5 +1,5 @@
 ﻿'use strict';
-angular.module('corsApp')
+angular.module('docsApp')
 .controller('homeCtrl', ['$scope', 'adalAuthenticationService','$location', function ($scope, adalService, $location) {
     $scope.login = function () {
         adalService.login();
