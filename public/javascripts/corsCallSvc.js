@@ -20,7 +20,7 @@ angular.module('corsApp')
                     for (var count = 0; count < files.results.length; count++) {
                         items.push({
                             name: files.results[count].Name,
-                            link: files.results[count].__metadata.uri.replace('_api/Web/GetFileByServerRelativeUrl(\'/expenses/', '').replace('\')','')
+                            link: files.results[count].__metadata.uri.replace('_api/Web/GetFileByServerRelativeUrl(\'/expenses/', '').replace('\')','') + '?web=1'
                         });
                     }
                    return items;
