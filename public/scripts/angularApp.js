@@ -1,7 +1,6 @@
 ﻿'use strict';
 angular.module('docsApp', ['ngRoute','AdalAngular'])
 .config(['$routeProvider', '$httpProvider', 'adalAuthenticationServiceProvider', function ($routeProvider, $httpProvider, adalProvider) {
-
     $routeProvider.when("/Home", {
         controller: "homeCtrl",
         templateUrl: "/home.html",

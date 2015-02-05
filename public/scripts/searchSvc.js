@@ -3,7 +3,7 @@
 angular.module('docsApp')
 .factory('searchSvc', ['$http', function ($http) {
         return {
-            getItems: function (name) {
+            getItems: function () {
                 var getOptions = {
                     headers: {
                         'Accept': 'application/json;odata=verbose'
@@ -15,7 +15,7 @@ angular.module('docsApp')
                 return $http.get(baseUri + 'files?$select=id,name,lastModifiedBy,size,url',
                 getOptions).then(function (results) {
                     var items = new Array();
-                    var files = results.data.d; //Get employees data
+                    var files = results.data.d;
                     for (var count = 0; count < files.results.length; count++) {
                         var item = files.results[count];
                         items.push({
@@ -27,7 +27,7 @@ angular.module('docsApp')
                     }
                    return items;
                }, function (error) {
-               });
+           });
         }
     };
 }]);

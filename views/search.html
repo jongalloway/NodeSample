@@ -3,10 +3,12 @@
     <p>{{loadingMessage}}</p>
     <div class="panel">
         <div class="input-group">
-            Search Results for "{{searchTerm}}" from OneDrive for Business:
+            Search Results for
+            <input type="search" placeholder="all files" ng-model="searchTerm" />
+            "{{searchTerm}}" from OneDrive for Business:
         </div>
         <ul class="search_results list-group">
-            <li data-ng-repeat="item in searchList">
+            <li data-ng-repeat="item in searchList | filter:searchTerm">
                 <a href="{{item.link}}" target="_blank">{{item.name}}</a> - <span class="info">{{item.size | bytes}}</span>
                 <div class="info">Last Modified by {{item.lastModifiedBy}}</div>
             </li>

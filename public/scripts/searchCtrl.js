@@ -7,8 +7,7 @@ var app = angular.module('docsApp')
 
     $scope.populate = function () {
 
-        searchSvc.getItems($routeParams.name).then(function (result) {
-            $scope.searchTerm = $routeParams.name;
+        searchSvc.getItems().then(function (result) {
             $scope.searchList = result;
             $scope.loadingMessage = "";
         },function (err) {
