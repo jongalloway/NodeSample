@@ -17,10 +17,11 @@ angular.module('corsApp')
                     var items = new Array();
                     var files = results.data.d; //Get employees data
                     for (var count = 0; count < files.results.length; count++) {
+                        var item = files.results[count];
                         items.push({
-                            name: files.results[count].Name,
-                            link: files.results[count].Url + '?web=1',
-                            size: files.results[count].length,
+                            name: item.Name,
+                            link: item.Url + '?web=1',
+                            size: item.length,
                             lastModifiedBy: item.LastModifiedBy.Name
                         });
                     }
