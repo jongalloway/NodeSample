@@ -1,7 +1,7 @@
 ﻿'use strict';
 
-angular.module('corsApp')
-.factory('corsCallSvc', ['$http', function ($http) {
+angular.module('docsApp')
+.factory('searchSvc', ['$http', function ($http) {
         return {
             getItems: function (name) {
                 var getOptions = {

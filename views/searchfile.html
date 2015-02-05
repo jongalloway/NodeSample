@@ -6,7 +6,7 @@
             Search Results for "{{searchTerm}}" from OneDrive for Business:
         </div>
         <ul class="search_results list-group">
-            <li data-ng-repeat="item in corsCallList">
+            <li data-ng-repeat="item in searchList">
                 <a href="{{item.link}}" target="_blank">{{item.name}}</a>
                 <div>{{item.size | bytes}}</div>
                 <div>{{item.lastModifiedBy}}</div>

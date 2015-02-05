@@ -33,20 +33,19 @@
   <ItemGroup>
     <Compile Include="app.js" />
     <Compile Include="newrelic.js" />
-    <Compile Include="public\javascripts\adal.js" />
-    <Compile Include="public\javascripts\angular-ui-bootstrap.js" />
-    <Compile Include="public\javascripts\angularApp.js" />
-    <Compile Include="public\javascripts\corsCallCtrl.js" />
-    <Compile Include="public\javascripts\corsCallSvc.js" />
-    <Compile Include="public\javascripts\homeCtrl.js" />
-    <Compile Include="public\javascripts\indexCtrl.js" />
-    <Compile Include="public\javascripts\userDataCtrl.js" />
+    <Compile Include="public\scripts\adal.js" />
+    <Compile Include="public\scripts\angular-ui-bootstrap.js" />
+    <Compile Include="public\scripts\angularApp.js" />
+    <Compile Include="public\scripts\searchCtrl.js" />
+    <Compile Include="public\scripts\searchSvc.js" />
+    <Compile Include="public\scripts\homeCtrl.js" />
+    <Compile Include="public\scripts\indexCtrl.js" />
     <Compile Include="routes\index.js" />
     <Compile Include="routes\users.js" />
     <Compile Include="bin\www" />
     <None Include="enterpriseapp.pubxml" />
     <Content Include="package.json" />
-    <Content Include="public\stylesheets\style.styl" />
+    <Content Include="public\stylesheets\overrides.css" />
     <Content Include="README.md" />
     <Content Include="views\searchfile.html" />
     <Content Include="views\home.html" />
@@ -58,7 +57,7 @@
     <Folder Include="bin\" />
     <Folder Include="public\" />
     <Folder Include="public\images\" />
-    <Folder Include="public\javascripts\" />
+    <Folder Include="public\scripts\" />
     <Folder Include="public\stylesheets\" />
     <Folder Include="routes\" />
     <Folder Include="views\" />

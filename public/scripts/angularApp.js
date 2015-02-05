@@ -1,5 +1,5 @@
 ﻿'use strict';
-angular.module('corsApp', ['ngRoute','AdalAngular'])
+angular.module('docsApp', ['ngRoute','AdalAngular'])
 .config(['$routeProvider', '$httpProvider', 'adalAuthenticationServiceProvider', function ($routeProvider, $httpProvider, adalProvider) {
 
     $routeProvider.when("/Home", {
