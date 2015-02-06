@@ -4,6 +4,10 @@ body {
 #search-results-title {
     color: #3a5795;
     font-size: 28px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
 }
 ul.search-results {
     list-style-type: none;
