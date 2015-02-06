@@ -76,3 +76,6 @@ ul.search-results li a:hover .name {
     line-height: 30px;
     margin-top: 24px;
 }
+.homeNoAuth .btn.btn-primary {
+    background-color: #3a5795;
+}
