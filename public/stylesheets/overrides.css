@@ -76,6 +76,9 @@ ul.search-results li a:hover .name {
     line-height: 30px;
     margin-top: 24px;
 }
+#home.authenticated .tile-btn i.icon-icomoon-file-word {
+    line-height: 27px;
+}
 .homeNoAuth .btn.btn-primary {
     background-color: #3a5795;
 }
