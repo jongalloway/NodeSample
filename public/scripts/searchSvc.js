@@ -15,9 +15,9 @@ angular.module('docsApp')
                 return $http.get(baseUri + 'files?$select=id,name,lastModifiedBy,size,url',
                 getOptions).then(function (results) {
                     var items = new Array();
-                    var files = results.data.d;
-                    for (var count = 0; count < files.results.length; count++) {
-                        var item = files.results[count];
+                    var files = results.data.value;
+                    for (var count = 0; count < files.length; count++) {
+                        var item = files[count];
                         items.push({
                             name: item.Name,
                             link: item.Url + '?web=1',
