@@ -1,3 +1,6 @@
+body {
+    font-size: 20px;
+}
 ul.search_results {
     list-style-type: none;
 }
