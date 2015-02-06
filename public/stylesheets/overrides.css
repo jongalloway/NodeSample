@@ -11,11 +11,15 @@ ul.search-results li {
 ul.search-results li .info {
     color: #009030;
 }
-.search_title {
+
+ul.search-results li a i {
+    font-size: 2em;
+}
+
+.search-title {
     font-size: 16px;
     padding: 10px;
-}
-.navbar {
+}.navbar {
     height: 70px;
 }
 .navbar-brand {
