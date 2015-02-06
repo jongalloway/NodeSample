@@ -16,7 +16,7 @@ angular.module('docsApp')
                 getOptions).then(function (results) {
                     var items = new Array();
                     var files = results.data.d;
-                    for (var count = 0; count < files.length; count++) {
+                    for (var count = 0; count < files.results.length; count++) {
                         var item = files.results[count];
                         items.push({
                             name: item.Name,
