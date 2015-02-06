@@ -10,7 +10,7 @@ angular.module('docsApp')
                     }
                 }
                 
-                var baseUri = 'https://techedairlift03.spoppe.com/expenses/_api/';                
+                var baseUri = 'https://dpe1-my.sharepoint.com/_api/';                
                 
                 return $http.get(baseUri + 'files?$select=id,name,lastModifiedBy,size,url',
                 getOptions).then(function (results) {
