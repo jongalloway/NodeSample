@@ -10,7 +10,7 @@
         <ul class="search-results list-group">
             <li data-ng-repeat="item in searchList | filter:searchTerm">
                 <a href="{{item.link}}" target="_blank">
-                    <i class="{{isWord ? 'icon-icomoon-file-word': 'icon-icomoon-file-excel'}}"></i> <span class="name">{{item.name}}</span>
+                    <i class="{{item.isWord ? 'icon-icomoon-file-word': 'icon-icomoon-file-excel'}}"></i> <span class="name">{{item.name}}</span>
                 </a>
                 <div>
                     <span class="info">{{item.size | bytes}}</span> -
