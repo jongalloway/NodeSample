@@ -18,15 +18,13 @@ angular.module('docsApp')
                     var files = results.data.d;
                     for (var count = 0; count < files.results.length; count++) {
                         var item = files.results[count];
-                        var itemName = item.Name;
-                        var isWord = (itemName.indexOf("docx") != -1);
                         
                         items.push({
                             name: item.Name,
                             link: item.Url + '?web=1',
                             size: item.Size,
                             lastModifiedBy: item.LastModifiedBy.Name,
-                            isWord: isWord
+                            isWord: item.Name.indexOf("docx") !== -1
                         });
                     }
                     return items;
