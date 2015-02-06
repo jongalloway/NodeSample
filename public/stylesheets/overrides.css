@@ -46,6 +46,7 @@ ul.search-results li a {
     width: 168px;
 }
 #home.authenticated .tile-btn i, #home.authenticated .tile-btn span {
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 24px;
 }
