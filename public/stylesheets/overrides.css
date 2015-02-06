@@ -1,5 +1,6 @@
 body {
     font-size: 20px;
+    color: #3a5795;
 }
 #search-results-title {
     color: #3a5795;
@@ -59,6 +60,7 @@ ul.search-results li a:hover .name {
 #home.authenticated .panel header {
     height: auto;
     padding: 10px;
+    background-color: #3a5795;
 }
 #home.authenticated .panel header i {
     top: 0;
