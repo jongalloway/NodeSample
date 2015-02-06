@@ -1,14 +1,14 @@
 body {
     font-size: 20px;
 }
-ul.search_results {
+ul.search-results {
     list-style-type: none;
 }
-ul.search_results li {
+ul.search-results li {
     padding: 10px;
     background-color: white;
 }
-ul.search_results li .info {
+ul.search-results li .info {
     color: #009030;
 }
 .search_title {
