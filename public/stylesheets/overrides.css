@@ -4,7 +4,7 @@ body {
 }
 #search-results-title {
     color: #3a5795;
-    font-size: 28px;
+    font-size: 1em;
     border-bottom: 1px solid #eee;
     margin-bottom: 10px;
     padding-bottom: 10px;
@@ -20,10 +20,11 @@ ul.search-results li {
 }
 ul.search-results li .info {
     color: #CCC;
+    font-size: 0.8em;
 }
 
 ul.search-results li a {
-    font-size: 1.4em;
+    font-size: 1em;
     color: #3a5795;
 }
 
