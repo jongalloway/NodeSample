@@ -17,7 +17,7 @@ angular.module('docsApp', ['ngRoute','AdalAngular'])
             endpoints: [
             {
                 url: 'https://dpe1-my.sharepoint.com/_api/',
-                resourceId: 'https://dpe1-my.sharepoint.com/
+                resourceId: 'https://dpe1-my.sharepoint.com/'
             }
             ]
         },
