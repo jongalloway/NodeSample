@@ -35,8 +35,12 @@ ul.search-results li a:hover .name {
     height: 70px;
     background-color: #3a5795;
 }
-.navbar-brand {
+.navbar-inverse .navbar-brand {
     font-size: 25px;
+    color: #FFF;
+}
+
+.navbar-inverse .btn-link {
     color: #FFF;
 }
 .navbar button {
