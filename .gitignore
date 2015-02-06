@@ -30,3 +30,4 @@ node_modules
 obj
 *.suo
 *.dat
+.ntvs_analysis.dat.tmp
