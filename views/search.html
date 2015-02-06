@@ -9,9 +9,11 @@
         </div>
         <ul class="search-results list-group">
             <li data-ng-repeat="item in searchList | filter:searchTerm">
-                <a href="{{item.link}}" target="_blank">{{item.name}}</a> - <span class="info">{{item.size | bytes}}</span>
-                <div class="info">Last Modified by {{item.lastModifiedBy}}</div>
-            </li>
+                <a href="{{item.link}}" target="_blank">
+                    <i class="{{isWord ? 'icon-icomoon-file-word': 'icon-icomoon-file-excel'}}"></i> {{item.name}}
+                </a>
+                - <span class="info">{{item.size | bytes}}</span>
+                <div class="info">Last Modified by {{item.lastModifiedBy}}</div>            </li>
         </ul>
     </div>
 </div>
