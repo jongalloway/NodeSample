@@ -12,8 +12,8 @@ ul.search-results li .info {
     color: #009030;
 }
 
-ul.search-results li a i {
-    font-size: 2em;
+ul.search-results li a {
+    font-size: 1.4em;
 }
 
 .search-title {
