@@ -16,6 +16,14 @@ ul.search-results li a {
     font-size: 1.4em;
 }
 
+ul.search-results li a:hover {
+    text-decoration: none;
+}
+
+ul.search-results li a:hover .name {
+    text-decoration: underline;
+}
+
 .search-title {
     font-size: 16px;
     padding: 10px;
