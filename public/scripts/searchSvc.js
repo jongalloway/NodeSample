@@ -6,7 +6,7 @@ angular.module('docsApp')
             getItems: function () {
                 var getOptions = {
                     headers: {
-                        'Accept': 'application/json;odata=verbose'
+                        'Accept': 'application/json'
                     }
                 }
                 
