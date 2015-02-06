@@ -10,7 +10,7 @@ angular.module('docsApp')
                     }
                 }
                 
-                var baseUri = 'https://dpe1-my.sharepoint.com/_api/';                
+                var baseUri = 'https://dpe1-my.sharepoint.com/_api/v1.0/me/';                
                 
                 return $http.get(baseUri + 'files?$select=id,name,lastModifiedBy,size,url',
                 getOptions).then(function (results) {
