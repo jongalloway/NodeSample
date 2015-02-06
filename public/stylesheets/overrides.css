@@ -28,6 +28,9 @@ ul.search-results li a i {
 .navbar button {
     font-size: 20px;
 }
+#home.authenticated #panel-101 {
+    margin-top: 10px;
+}
 #home.authenticated .panel header {
     height: auto;
     padding: 10px;
@@ -37,4 +40,12 @@ ul.search-results li a i {
 }
 #home.authenticated .panel header span {
     top: 0;
+}
+#home.authenticated .tile-btn {
+    height: 136px;
+    width: 168px;
+}
+#home.authenticated .tile-btn i, #home.authenticated .tile-btn span {
+    font-size: 40px;
+    line-height: 40px;
 }
