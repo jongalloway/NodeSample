@@ -15,3 +15,12 @@ ul.search-results li .info {
     font-size: 16px;
     padding: 10px;
 }
+.navbar {
+    height: 70px;
+}
+.navbar-brand {
+    font-size: 25px;
+}
+.navbar button {
+    font-size: 20px;
+}
