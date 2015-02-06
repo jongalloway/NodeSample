@@ -3,6 +3,7 @@ body {
 }
 #search-results-title {
     color: #3a5795;
+    font-size: 28px;
 }
 ul.search-results {
     list-style-type: none;
@@ -18,6 +19,7 @@ ul.search-results li .info {
 
 ul.search-results li a {
     font-size: 1.4em;
+    color: #3a5795;
 }
 
 ul.search-results li a:hover {
