@@ -69,6 +69,7 @@ ul.search-results li a:hover .name {
 #home.authenticated .tile-btn {
     height: 136px;
     width: 168px;
+    background-color: #3a5795;
 }
 #home.authenticated .tile-btn i, #home.authenticated .tile-btn span {
     font-size: 30px;
