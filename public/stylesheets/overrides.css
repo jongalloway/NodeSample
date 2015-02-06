@@ -1,12 +1,16 @@
 body {
     font-size: 20px;
 }
+#search-results-title {
+    color: #3a5795;
+}
 ul.search-results {
     list-style-type: none;
 }
 ul.search-results li {
     padding: 10px;
     background-color: white;
+    color: #3a5795;
 }
 ul.search-results li .info {
     color: #CCC;
@@ -29,12 +33,15 @@ ul.search-results li a:hover .name {
     padding: 10px;
 }.navbar {
     height: 70px;
+    background-color: #3a5795;
 }
 .navbar-brand {
     font-size: 25px;
+    color: #FFF;
 }
 .navbar button {
     font-size: 20px;
+    color: #FFF;
 }
 #home.authenticated #panel-101 {
     margin-top: 10px;
