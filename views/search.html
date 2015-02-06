@@ -8,7 +8,7 @@
             from OneDrive for Business:
         </div>
         <ul class="search-results list-group">
-            <li data-ng-repeat="item in searchList | filter:searchTerm">
+            <li ng-animate="'animate'" data-ng-repeat="item in searchList | filter:searchTerm">
                 <a href="{{item.link}}" target="_blank">
                     <i class="{{isWord ? 'icon-icomoon-file-word': 'icon-icomoon-file-excel'}}"></i> <span class="name">{{item.name}}</span>
                 </a>

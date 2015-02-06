@@ -58,3 +58,15 @@ ul.search-results li a:hover .name {
     line-height: 30px;
     margin-top: 24px;
 }
+
+.animate-enter, .animate-leave {
+    transition: 500ms ease-in all;
+    position: relative;
+    display: block;
+} 
+.animate-enter.animate-enter-active, .animate-leave {
+    left: 0;
+}
+.animate-leave.animate-leave-active, .animate-enter {
+    left: 500px;
+}
